@@ -18,15 +18,58 @@ export default function Home() {
         <p className="text-center sm:text-left">Get ready for an epic journey where your decisions shape the outcome. Final Call is an immersive game that puts you in control of critical choices that will determine the fate of many.</p>
         <h4 className="text-lg font-semibold">Features:</h4>
         <ul className="list-disc list-inside text-center sm:text-left">
-          <li>Dynamic storytelling</li>
-          <li>Multiple endings</li>
-          <li>Strategic decision-making</li>
-          <li>Stunning visuals</li>
-          <li>Atmospheric soundscape</li>
+          <li>Dynamic Prize Pool: Build a prize pool that grows dynamically with each new bet. The more bets are placed, the bigger the prize, making it exciting to stay in the game longer.</li>
+          <li>Countdown Visuals & Alerts: A prominently displayed countdown timer and real-time notifications create suspense and prompt users to place bets.</li>
+          <li>Leaderboards and Player Profiles: Track players based on their wins, time in-game, and biggest bets. Allow profile customization with NFT avatars to boost attachment to the game.</li>
+          <li>Special Power-ups and Bonuses: Offer items like shields or blocks to freeze the timer or prevent others from betting, and bonus bets to double winnings, adding layers of strategy.</li>
+          <li>Community and Social Features: Enable team play mode, chat, and emotes to make the game social and fun, enhancing engagement.</li>
+          <li>Exclusive and Limited-Edition NFTs: Reward unique NFTs to winners and drop NFTs with in-game perks for active participants.</li>
+          <li>Variable Betting Challenges: Introduce special rounds with higher stakes and limited-time themes to keep the game interesting and engaging.</li>
         </ul>
         <p className="text-center sm:text-left">Stay tuned for the launch! Join our waiting list to be among the first to experience this groundbreaking adventure.</p>
         <a href="#" className="inline-block mt-4 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition duration-300 ease-in-out transform hover:scale-105">Sign Up for Updates</a>
       </main>
+
+      <section className="mt-16 p-8 bg-white text-black rounded-lg shadow-lg animate-fadeIn">
+        <h2 className="text-3xl font-bold mb-4">Roadmap</h2>
+        <div className="space-y-8">
+          <div className="space-y-2">
+            <h3 className="text-2xl font-semibold">1. Dynamic Prize Pool</h3>
+            <p>Progressive Rewards: Build a prize pool that grows dynamically with each new bet. The more bets are placed, the bigger the prize, which can make it exciting to stay in the game longer.</p>
+            <p>Winner Takes All vs. Split Rewards: Instead of just one winner, create tiers of rewards—e.g., a grand prize for the last person, but smaller rewards for participants who stayed in the longest. This could entice more users to stay involved.</p>
+          </div>
+          <div className="space-y-2">
+            <h3 className="text-2xl font-semibold">2. Countdown Visuals & Alerts</h3>
+            <p>Visual Countdown Timer: A prominently displayed countdown timer that shows when the one-minute limit is about to expire can create suspense.</p>
+            <p>Real-time Notifications: Give users the option to receive real-time push notifications if the timer is nearing the end, prompting them to place a bet.</p>
+          </div>
+          <div className="space-y-2">
+            <h3 className="text-2xl font-semibold">3. Leaderboards and Player Profiles</h3>
+            <p>Leaderboard with Rank and Stats: Track players based on their wins, time in-game, and biggest bets, and display their ranks. High scores or leaderboards add an element of status and encourage repeat play.</p>
+            <p>Profile Customization & NFT Avatars: Allow players to use customizable avatars or NFT assets as their in-game persona, boosting their attachment to the game.</p>
+          </div>
+          <div className="space-y-2">
+            <h3 className="text-2xl font-semibold">4. Special Power-ups and Bonuses</h3>
+            <p>Shield or Block Options: Offer items that can freeze the timer briefly or prevent others from betting for a short period. Players could use these strategically, making the game more competitive.</p>
+            <p>Bonus Bets or Double-Or-Nothing Rounds: Let players use boosts to double their winnings or gain an advantage in the bidding rounds, adding layers of strategy.</p>
+          </div>
+          <div className="space-y-2">
+            <h3 className="text-2xl font-semibold">5. Community and Social Features</h3>
+            <p>Team Play Mode: Have an option where players can form alliances or teams, with team-based rewards. Teams could plan strategies to hold off other teams.</p>
+            <p>Chat and Emotes: A chat feature with emotes or reactions could make the game social and fun. Reactions like “🔥” for big bets or “⏳” when the timer is near zero could enhance engagement.</p>
+          </div>
+          <div className="space-y-2">
+            <h3 className="text-2xl font-semibold">6. Exclusive and Limited-Edition NFTs</h3>
+            <p>Reward NFTs for Winners: Offer unique NFTs that can only be won by being the last bettor in a particular season. These NFTs could confer bragging rights or in-game benefits in future rounds.</p>
+            <p>In-Game NFT Drops: Occasionally drop NFTs with in-game perks, like a small shield or timer booster, only available for those actively participating.</p>
+          </div>
+          <div className="space-y-2">
+            <h3 className="text-2xl font-semibold">7. Variable Betting Challenges</h3>
+            <p>Timed Events with High Stakes: Introduce special rounds where the game is faster-paced, or the required waiting time is reduced to 30 seconds. These rounds could have a higher prize pool.</p>
+            <p>Limited-Time Themes: Change the theme or betting conditions every week, like a themed tournament with bonus perks or multipliers for certain kinds of bets.</p>
+          </div>
+        </div>
+      </section>
 
       <style jsx>{`
         @keyframes fadeIn {
